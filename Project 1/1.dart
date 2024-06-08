@@ -9,5 +9,5 @@ void main() {
     return int.parse(stdin.readLineSync() ?? '0');
   });
 
-  array.forEach((elem) => {if (elem < 0) print('$elem')});
+  array.forEach((elem) {if (elem < 0) print('$elem');});
 }

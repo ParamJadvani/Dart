@@ -11,7 +11,7 @@ void main() {
 
   int max = array[0];
 
-  array.forEach((elem) => {if (elem > max) max = elem});
+  array.forEach((elem) {if (elem > max) max = elem;});
 
   print('$max');
 }
